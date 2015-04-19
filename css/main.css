@@ -41,38 +41,6 @@ footer {
     font-size: .8em;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
-
-/* Slide 2 */
-#slide-2 .bcg {background-image:url('../img/bcg_slide-2.jpg')}
-#slide-2 .hsContent {
-    /*margin-left: -450px;-->*/
-    top: auto;
-}
-#slide-2 h2 {
-    position: fixed;
-    top: 70%;
-}
-
-/* Slide 4 */
-#slide-4 .bcg {background-image:url('../img/bcg_slide-4.jpg')}
-#slide-4 .hsContent {
-    /*margin-left: -450px;*/
-    position: fixed;
-    top: 250px;
-}
-#slide-4 h2 {
-    background: none;
-    padding-left: 0;
-    padding-right: 0;
-}
 
 // setting base styles to image containers
 [class*="bg__"] {
@@ -95,28 +63,41 @@ ul.posts li {
   }
 }
 
-.bg__foo {
+bg__foo {
   background-image: url(
     https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax1.jpg
   );
 }
 
-.bg__bar {
+bg__bar {
   background-image: url(
     https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax2.jpg
   );
 }
 
-.bg__baz {
+bg__baz {
   background-image: url(
     https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax3.jpg
   );
 }
 
-.bg__bazz {
+bg__bazz {
   height: 100vh;
 
   background-image: url(
     https://s3-us-west-2.amazonaws.com/s.cdpn.io/30354/parallax1.jpg
   );
+}
+
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
 }

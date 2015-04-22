@@ -14,8 +14,9 @@ nav ul li, footer ul li {
 }
 
 .circular {
-	width: 300px;
-	height: 300px;
+	width: 500px;
+	height: 500px;
+	border-radius: 5px;
 	}
 	
 h1 {

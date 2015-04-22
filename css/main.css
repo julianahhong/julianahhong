@@ -14,12 +14,12 @@ nav ul li, footer ul li {
 }
 
 .circular {
-	width: 300px;
-	height: 300px;
+	width: 150px;
+	height: 240px;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-	background: url(http://link-to-your/image.jpg) no-repeat;
+
 	}
 	
 h1 {

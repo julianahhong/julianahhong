@@ -54,5 +54,5 @@ footer ul li {
 
 @font-face{
     font-family: Open Sans Condensed;
-    src: url(http://www.google.com/fonts/specimen/Open+Sans+Condensed);
+    src: url('http://www.google.com/fonts/specimen/Open+Sans+Condensed');
 }

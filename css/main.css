@@ -53,13 +53,16 @@ footer ul li {
     padding:0px;
 }
 
-.summers{
-    text-align:center;
+.summers img{
     
+    border-radius:50%;
 }
 
+.summer{
+    width:75%;
+    text-align:center;
+}
 .summerpics{
-    border-radius:50%;
     width:75%;
     margin-left: 50%;
     margin-right: 50%;

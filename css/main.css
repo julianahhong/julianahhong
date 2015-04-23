@@ -51,3 +51,8 @@ footer ul li {
     margin-right: 20px;
     padding:0px;
 }
+
+@font-face{
+    font-family: Open Sans Condensed;
+    src: url(http://www.google.com/fonts/specimen/Open+Sans+Condensed);
+}

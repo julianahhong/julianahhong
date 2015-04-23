@@ -58,9 +58,10 @@ footer ul li {
     border-radius:50%;
 }
 
-.summer{
+.summer p{
     width:75%;
-    text-align:center;
+    margin-left: 50%;
+    margin-right: 50%;
 }
 .summerpics{
     width:75%;

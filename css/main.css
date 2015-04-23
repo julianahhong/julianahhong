@@ -11,7 +11,7 @@ nav ul{
 nav ul li {
     font-family:'Open Sans Condensed','Century Gothic','Sans-Serif';
     display: inline;
-    margin-right: 20px;
+    text-align:center;
     padding:0px;
     font-size: 1.5em;
 }

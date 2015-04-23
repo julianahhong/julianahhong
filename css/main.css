@@ -54,5 +54,12 @@ footer ul li {
 
 .summers img{
     border-radius:50%;
+    text-align:'center';
+    
+}
+
+.summerpics{
+    margin-left: auto;
+    margin-right: auto;
 }
 

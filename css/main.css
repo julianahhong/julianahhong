@@ -66,7 +66,7 @@ footer ul li {
 
 
 /* Slide 2 */
-#slide-2 .bcg {background-image:url('/img/bcg_slide-2.jpg')}
+#slide-2 .bcg {background-image:url("https://cloud.githubusercontent.com/assets/11984254/7328693/7d0944dc-eaa5-11e4-91d4-7babc9f96a24.jpg")}
 #slide-2 .hsContent {
     margin-left: -450px;
     top: auto;
@@ -77,7 +77,7 @@ footer ul li {
 }
 
 /* Slide 4 */
-#slide-4 .bcg {background-image:url('/img/bcg_slide-4.jpg')}
+#slide-4 .bcg {background-image:url("https://cloud.githubusercontent.com/assets/11984254/7328692/7cfac8bc-eaa5-11e4-9705-7bd835b38b5b.jpg")}
 #slide-4 .hsContent {
     margin-left: -450px;
     position: fixed;

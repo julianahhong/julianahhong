@@ -1,5 +1,8 @@
+function parallax(){
+    var scrolled = $(window).scrollTop();
+    $('.bg').css('top', -(scrolled * 0.2) + 'px');
+}
 
-// Init Skrollr
-var s = skrollr.init({
-    forceHeight: false
+$(window).scroll(function(e){
+    parallax();
 });

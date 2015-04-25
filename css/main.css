@@ -2,8 +2,6 @@ body {
     margin: 60px;
 }
 
-
-
 nav ul{
     padding: 0px;
     list-style: none;
@@ -132,3 +130,10 @@ section.module.parallax-3 {
   }
 }
 
+
+section.module.parallax-1a {
+  background-image: url("https://cloud.githubusercontent.com/assets/11984254/7334357/a9571d5c-eb5e-11e4-8a67-77a7f97c7edd.jpg");
+}
+section.module.parallax-2a {
+  background-image: url("https://cloud.githubusercontent.com/assets/11984254/7334364/f4d0b39c-eb5e-11e4-82ff-80004917c347.jpg");
+}

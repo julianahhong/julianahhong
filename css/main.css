@@ -2,10 +2,6 @@ body {
     margin: 60px;
 }
 
-nav ul{
-    padding: 0px;
-    text-align: right;
-}
 nav ul li {
     font-family: 'Century Gothic','Sans-Serif';
     text-align: center;

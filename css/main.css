@@ -17,7 +17,7 @@ h2 {
 }
 
 
-.blurb p {
+p.blurb {
     color: #FFFAF0;
     font-family: 'Century Gothic','Sans-Serif';
 }
@@ -44,14 +44,6 @@ footer ul li {
     
     border-radius:50%;
 }
-
-.summers p, h3{
-
-}
-.summerpics{
-
-}
-
 
 section.module:last-child {
   margin-bottom: 0;

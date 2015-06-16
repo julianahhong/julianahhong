@@ -2,13 +2,13 @@ body {
     margin: 60px;
 }
 
-nav ul{
+.nav navbar-nav ul{
     padding: 0px;
     list-style: none;
     font-weight: bold;
     text-align: center;
 }
-nav ul li {
+.nav navbar-nav ul li {
     font-family: 'Century Gothic','Sans-Serif';
     display: inline;
     margin: 20px;

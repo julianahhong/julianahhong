@@ -6,6 +6,10 @@ nav li {
     font-family: 'Century Gothic','Sans-Serif';
 }
 
+.navbar {
+    text-align:center;
+}
+
 h1, h2, h3, h4, {
     font-family: 'Century Gothic','Sans-Serif';
     color: #FFFAF0;

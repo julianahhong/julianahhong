@@ -2,7 +2,9 @@ body {
     margin: 60px;
 }
 
-
+nav li {
+    font-family: 'Century Gothic','Sans-Serif';
+}
 
 h1, h2, h3, h4, {
     font-family: 'Century Gothic','Sans-Serif';

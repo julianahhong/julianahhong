@@ -9,7 +9,7 @@ nav ul{
     text-align: center;
 }
 nav ul li {
-    font-family:'Open Sans Condensed','Century Gothic','Sans-Serif';
+    font-family: 'Century Gothic','Sans-Serif';
     display: inline;
     margin: 20px;
     padding:0px;
@@ -17,7 +17,7 @@ nav ul li {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Roboto Slab", serif;
+    font-family: 'Century Gothic','Sans-Serif';
     color: #FFFAF0;
 }
 

@@ -2,8 +2,9 @@ body {
     margin: 60px;
 }
 
-nav li {
+li {
     font-family: 'Century Gothic','Sans-Serif';
+    text-align:center;
 }
 
 .navbar {

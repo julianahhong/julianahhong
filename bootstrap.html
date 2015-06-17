@@ -63,10 +63,26 @@
           
 	<table background="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_corazón.svg/2000px-Heart_corazón.svg.png">
 	<tr>
-	  <td width="33%" align="center">1</td>
-	  <td width="33%" align="center">2</td>
-	  <td width="33%" align="center">3</td>
+            <td class="fluid">First Column</td>
+            <td class="fixed">Fixed Column</td>
+            <td class="fluid">Third Column</td>
 	</tr>
+	<style>
+		table {
+		    border-collapse: collapse;
+		}
+		th, td {
+		    border: solid 1px #CCC;
+		    padding: 10px;
+		}
+		.fixed {
+		    max-width: 300px;
+		    min-width: 300px;
+		}
+		.fluid {
+		        width: 50%;
+		}
+	</style>
 	</table>
 		
                <div>	

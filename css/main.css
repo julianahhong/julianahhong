@@ -33,14 +33,6 @@ footer ul li {
     padding:0px;
 }
 
-.summers img{
-    
-    border-radius:50%;
-}
-
-section.module:last-child {
-  margin-bottom: 0;
-}
 section.module h2 {
   margin-bottom: 40px;
   font-family: "Roboto Slab", serif;
@@ -51,12 +43,7 @@ section.module p {
   font-size: 16px;
   font-weight: 300;
 }
-section.module p:last-child {
-  margin-bottom: 0;
-}
-section.module.content {
-  padding: 40px 0;
-}
+
 section.module.parallax {
   height: 600px;
   background-position: 50% 50%;

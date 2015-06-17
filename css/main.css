@@ -11,9 +11,10 @@ nav li {
     text-align:center;
 }
 
-h2 {
+h1, h2 {
     font-family: 'Century Gothic','Sans-Serif';
     color: #FFFAF0;
+    text-align: center;
 }
 
 

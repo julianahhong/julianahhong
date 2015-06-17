@@ -3,7 +3,6 @@ body {
 }
 
 li {
-    font-family: 'Century Gothic','Sans-Serif';
     text-align:center;
 }
 
@@ -12,15 +11,9 @@ li {
 }
 
 h1, h2, h3 {
-    font-family: 'Century Gothic','Sans-Serif';
     text-align: center;
 }
 
-
-p.blurb {
-    color: #FFFAF0;
-    font-family: 'Century Gothic','Sans-Serif';
-}
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;

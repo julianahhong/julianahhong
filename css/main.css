@@ -76,6 +76,14 @@ section.module.parallax h1 {
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+section.module.parallax h2,h3 {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
 section.module.parallax-1 {
   background-image: url("https://cloud.githubusercontent.com/assets/11984254/8189471/840faa56-142a-11e5-991e-57560d46552a.png");
 }

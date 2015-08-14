@@ -18,9 +18,7 @@ function extractEmailAddresses(emailAddressString) {
         //FIX STUFF HERE- fix scope sendEmail
         sendEmail += "{\'email\': \'" + emailArray[i] + "\'," + "\'type\': \'to\' }";
         //if last value in email array
-        console.log('first' + sendEmail);
         if (i == emailArray.length - 1){
-       console.log('if' + sendEmail);	
         }
         else {
         	sendEmail += ",";
@@ -35,8 +33,6 @@ function extractEmailAddresses(emailAddressString) {
 function determineEmailRecipients(emailAddressString) {
 	//if emailAddress contains comma i.e. multiple recipients	
     if (emailAddressString.indexOf(',') >= 0){
-    	console.log("Must extract");
-
     	return extractEmailAddresses(emailAddressString);
     }
     else {
@@ -45,8 +41,7 @@ function determineEmailRecipients(emailAddressString) {
 }
 
 var emailAddress = "julianajoy@gmail.com,  julianahhong@gmail.com,test@gmail.com";
-// console.log(determineEmailRecipients(emailAddress));
-console.log(determineEmailRecipients("juliana@email.com, julia@2"));
+console.log(determineEmailRecipients(emailAddress));
 
 </script>
 

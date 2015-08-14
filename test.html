@@ -9,7 +9,7 @@
 <script type="text/javascript">
 
 function extractEmailAddresses(emailAddressString) {
-    emailAddressString.replace(/\s/g, "");
+    emailAddressString = emailAddressString.replace(/\s/g, "");
     var emailArray = emailAddressString.split(',');
     var sendEmail = ""
 

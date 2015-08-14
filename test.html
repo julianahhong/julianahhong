@@ -10,13 +10,27 @@
 function extractEmailAddresses(emailAddressString) {
     emailAddressString.replace(/\s/g, "");
     var emailArray = emailAddressString.split(',');
+    var sendEmail = ""
+
     for (var i = 0; i < emailArray.length; i++){
-//         send_at: emailArray[i];
-    console.log(emailArray[i]);
-    }
+        //console.log(emailArray[i]);
+        
+        //FIX STUFF HERE- fix scope sendEmail
+        sendEmail.concat("{\'email\': \'" + emailArray[i] + "\'," + "\'type\': \'to\' }");
+        
+        //if last value in email array
+        if (i == emailArray.length - 1){
+        	return true;
+        }
+        else {
+        	sendEmail.concat(",");
+        }
+        }
+        
+        return sendEmail;
 }
 var emailAddress = "julianajoy@gmail.com, julianahhong@gmail.com";
-extractEmailAddresses(emailAddress);
+console.log(extractEmailAddresses(emailAddress));
 </script>
 
 </body>

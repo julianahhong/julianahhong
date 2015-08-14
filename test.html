@@ -35,7 +35,7 @@ function determineEmailRecipients(emailAddressString) {
     	return extractEmailAddresses(emailAddressString);
     }
     else {
-    	return emailAddressString;
+    	return "{\'email\': \'" + emailAddressString + "\'}";
     }
 }
 

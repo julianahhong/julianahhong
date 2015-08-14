@@ -16,7 +16,8 @@ function extractEmailAddresses(emailAddressString) {
         //console.log(emailArray[i]);
         
         //FIX STUFF HERE- fix scope sendEmail
-        sendEmail.concat("{\'email\': \'" + emailArray[i] + "\'," + "\'type\': \'to\' }");
+        // sendEmail.concat("{\'email\': \'" + emailArray[i] + "\'," + "\'type\': \'to\' }");
+        sendEmail.concat("A");
         console.log(sendEmail);
         //if last value in email array
         if (i == emailArray.length - 1){

@@ -18,7 +18,6 @@ function extractEmailAddresses(emailAddressString) {
         sendEmail += "{\'email\': \'" + emailArray[i] + "\'," + "\'type\': \'to\' }";
         //if last value in email array
         if (i == emailArray.length - 1){
-        	return true;
         }
         else {
         	sendEmail += ",";

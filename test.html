@@ -35,8 +35,9 @@ function extractEmailAddresses(emailAddressString) {
 function determineEmailRecipients(emailAddressString) {
 	//if emailAddress contains comma i.e. multiple recipients	
     if (emailAddressString.indexOf(',') >= 0){
-    	extractEmailAddresses(emailAddressString);
     	console.log("Must extract");
+
+    	return extractEmailAddresses(emailAddressString);
     }
     else {
     	return emailAddressString;

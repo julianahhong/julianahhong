@@ -18,16 +18,19 @@ function extractEmailAddresses(emailAddressString) {
         //FIX STUFF HERE- fix scope sendEmail
         sendEmail += "{\'email\': \'" + emailArray[i] + "\'," + "\'type\': \'to\' }";
         //if last value in email array
+        console.log('first' + sendEmail);
         if (i == emailArray.length - 1){
+       console.log('if' + sendEmail);	
         }
         else {
         	sendEmail += ",";
+        console.log('else' + sendEmail);
         }
         }
         
         return sendEmail;
 }
-// console.log(extractEmailAddresses(emailAddress));
+ console.log('extract' + extractEmailAddresses(emailAddress));
 
 
 function determineEmailRecipients(emailAddressString) {

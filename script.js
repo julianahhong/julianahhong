@@ -1,2 +1,3 @@
-$("#Test").scrollTop(80);
+$("#AboutMe").scrollTop();
 $("#Projects").scrollTop();
+$("#Contact").scrollTop();

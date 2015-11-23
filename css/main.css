@@ -103,6 +103,9 @@ section.module.parallax.parallax-2 {
   -o-background-size: cover;
   background-size: cover;
 }
+section.module.parallax.parallax-4 {
+  height: 300px;
+}
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 48px;

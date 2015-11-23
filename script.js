@@ -1,2 +1,2 @@
 $("#Test").scrollTop(80);
-$("#Projects").scrollTop(80);
+$("#Projects").scrollTop(40);

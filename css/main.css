@@ -8,6 +8,7 @@ li {
 
 .navbar {
     text-align:center;
+    position: absolute;
 }
 
 h1, h2, h3 {

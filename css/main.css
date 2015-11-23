@@ -121,7 +121,9 @@ section.module.parallax-2 {
 section.module.parallax-3 {
   background-image: url("https://cloud.githubusercontent.com/assets/11984254/7329301/affc0536-eaab-11e4-8ee4-2a9eb96223e1.jpg");
 }
-
+section.module.parallax-4 {
+  background-image: url("https://cloud.githubusercontent.com/assets/11984254/7329301/affc0536-eaab-11e4-8ee4-2a9eb96223e1.jpg");
+}
 @media all and (min-width: 600px) {
   section.module h2 {
     font-size: 42px;

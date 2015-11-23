@@ -83,7 +83,7 @@ section.module p {
 }
 
 section.module.parallax {
-  height: 700px;
+  height: 500px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -94,7 +94,6 @@ section.module.parallax {
 }
 
 section.module.parallax.parallax-2 {
-  height: 700px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;

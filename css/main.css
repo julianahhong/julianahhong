@@ -23,12 +23,14 @@ h1{
 
 .intro {
   background-color: purple;
+  height: 400px;
+
 }
 .intro h1{
   color: white;
   font-size: 75px;
   font-family: "Open Sans";
-  height: 400px;
   width: 100%;
-  margin-top:60px ;
+  margin-top:60px;
+  height: 50%;
 }

@@ -20,7 +20,11 @@ h1{
   margin: 0px;
   padding: 0px;
 }
-
+.body{
+  height: 700px;
+  width:100%;
+  margin:0px;
+}
 .intro {
   background-color: purple;
   height: 400px;
@@ -37,6 +41,6 @@ h1 {
 }
 .projects {
   background-color: gray;
-  height: 600px;
-  
+
 }
+

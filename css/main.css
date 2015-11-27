@@ -18,3 +18,12 @@ h1{
   margin: 0px;
   padding: 0px;
 }
+
+.intro {
+  background-color: purple;
+}
+.intro h1{
+  color: white;
+  font-size: 45px;
+  font-family: "Open Sans";
+}

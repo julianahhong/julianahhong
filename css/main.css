@@ -2,3 +2,9 @@ h1{
   font-family: "Open Sans";
   text-align: center;
 }
+.navbar{
+  background-color: #333030;
+}
+.navbar li {
+  display: inline-block;
+}

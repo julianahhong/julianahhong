@@ -88,7 +88,7 @@ section.module p {
 
 section.module.parallax {
   height: 500px;
-
+  margin: 0px;
 }
 
 section.module.parallax-1 {

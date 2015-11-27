@@ -88,6 +88,7 @@ section.module p {
 
 section.module.parallax {
   height: 500px;
+  background-repeat: no-repeat;
 }
 
 section.module.parallax-1 {

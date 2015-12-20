@@ -24,7 +24,7 @@ h1{
   height: 700px;
   width:100%;
   margin:0px;
-  background-color: #071456;
+  background-color: #8DE1EA;
 }
 .intro {
   background-color: #5FD1DD;
@@ -37,7 +37,7 @@ h1{
 }
 
 h1, h2, h3, h4, h5, p, ul, li {
-    color: white;
+    color: #071456;
     font-family: "Lato";
 
 }

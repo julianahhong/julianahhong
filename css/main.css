@@ -35,14 +35,19 @@ h1{
   margin-left: 0px;
 }
 
-h1 {
+h1, h2, h3, h4, h5, p {
     color: white;
     font-family: "Open Sans";
+
+}
+h1 {
     font-size: 75px;
 
 }
 .projects {
   background-color: #071456;
+  height: 600px;
+  margin: 0px;
 }
 
 .contact {

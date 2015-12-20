@@ -16,16 +16,12 @@
   padding: 0px;
 }
 .main{
-  height: 100%;
-  width:100%;
   margin:0px;
   background-color: #8DE1EA;
   padding: 0px;
 }
 .intro {
   background-color: #5FD1DD;
-  height: 100%;
-  width: 100%;
   margin-top: 60 px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -44,7 +40,6 @@ h1 {
 }
 .projects {
   background-color: #071456;
-  height: 600px;
   margin: 0px;
   padding: 0px;
 }

@@ -20,6 +20,7 @@
   width:100%;
   margin:0px;
   background-color: #8DE1EA;
+  padding: 0px;
 }
 .intro {
   background-color: #5FD1DD;
@@ -45,11 +46,13 @@ h1 {
   background-color: #071456;
   height: 600px;
   margin: 0px;
+  padding: 0px;
 }
 
 .contact {
-  background-color: gray;
+  background-color: #333030;
   margin: 0px;
+  padding: 0px;
 }
 #hi {
   margin-top: 100 px;

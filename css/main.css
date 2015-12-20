@@ -24,6 +24,7 @@ h1{
   height: 700px;
   width:100%;
   margin:0px;
+  background-color: #0F1A4F;
 }
 .intro {
   background-color: #5FD1DD;
@@ -35,9 +36,9 @@ h1{
   margin-left: 0px;
 }
 
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, h5, p, ul, li {
     color: white;
-    font-family: "Open Sans Condensed";
+    font-family: "Lato";
 
 }
 h1 {

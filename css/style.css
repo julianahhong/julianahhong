@@ -12,3 +12,7 @@
 body{
 	font-family: 'Inconsolata', monospace;
 }
+
+.projects-img{
+  height: 400px
+}
